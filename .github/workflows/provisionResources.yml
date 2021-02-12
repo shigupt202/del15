@@ -3,8 +3,8 @@ on:
 
 name: Provision azure resources
 env:
-  RESOURCE_GROUP_NAME: ${{acc.RESOURCE_GROUP}}
-  RESOURCE_GROUP_LOCATION: ${{acc.RESOURCE_GROUP_LOCATION}}
+  RESOURCE_GROUP_NAME: shigupt-rg-cliwu
+  RESOURCE_GROUP_LOCATION: westus
 
 jobs:
   provision-azure-resources:
